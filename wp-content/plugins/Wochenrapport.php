@@ -16,7 +16,7 @@ Author: Joel Gratwohl
     // This function will run when the plugin is activated by the user.
     register_activation_hook( __FILE__, 'wochenrapport_create_db' );
     
-    //von Jasjotbir
+    //von Jasjotbir und Amir
     function wochenrapport_create_db() {
 	global $wpdb;
 	$charset_collate = $wpdb->get_charset_collate();
